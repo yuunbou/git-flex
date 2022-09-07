@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  background-color: #00c7ce;
+  height: 50vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.flex > div {
+  background-color: #fff;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.flex > div:nth-child(1) {
+  flex-grow: 0;
+}
+
+.flex > div:nth-child(2) {
+  flex-grow: 1;
+}
+
+.flex > div:nth-child(3) {
+  flex-grow: 2;
+}
+
+.flex > div:nth-child(4) {
+  flex-grow: 3;
+}
